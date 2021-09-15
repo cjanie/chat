@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import * as selectors from "./selectors";
+import * as actions from "./actions";
+
+export { selectors };
+export { actions };
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
